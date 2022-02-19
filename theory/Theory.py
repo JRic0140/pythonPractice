@@ -1,38 +1,9 @@
-
-
-
-
-
-# a = [5,2,5,'holaMundo','otroString']
-
-            # id()
-            # list()
-            # min()
-            # max()
-            # len()
-        # del array
-            # append()
-            # count()
-            # extend()
-            # index()
-            # sort()
-            # remove()
-            # pop()
-            # reverse()
-            # sort()
-
-        # dict{}
-        
-            # type()
-            # str()
-            # clear
-
-# print(a[0]+a[0])
-
-# print(a.count(5))
-
-
-# objetos = {'saludo':'jsjsjsjs'}
-# objetos['saludo'] = "hola"
-
-# print(objetos['saludo'])
+from tkinter import *
+from tkinter import ttk
+root = Tk()
+frm = ttk.Frame(root, padding=10)
+frm.grid()
+text = 'holaWEYtodoBien?'
+ttk.Label(frm, text=f'{text}').grid(column=0, row=0)
+ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
+root.mainloop()
