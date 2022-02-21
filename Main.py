@@ -1,9 +1,23 @@
 from modules.moduls import *
 
-# import os
+
+
+
+# cont()
+
+
+
+
+
+
+
+
 
 
 dates = [calc(),circulo(5),'\n\n'+ another()]
- 
 
-textwrited('cosas.txt',dates)
+
+# eval(lista[2])
+
+textwrited('result/cosas.txt',dates)
+
